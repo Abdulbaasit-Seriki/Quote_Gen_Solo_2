@@ -1,0 +1,41 @@
+.layout {
+  display: flex;
+}
+
+.area {
+  width: 100%;
+}
+
+.areaContainer {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.convert {
+  width: 50%;
+}
+
+.vl {
+  border-left: 2px solid #cecccc;
+  height: 100vh;
+}
+
+.email {
+  width: 90%;
+  height: 70vh;
+  border-radius: 7px;
+  background-color: #f3f3f3;
+}

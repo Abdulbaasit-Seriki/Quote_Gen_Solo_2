@@ -1,0 +1,26 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+.googleLogin {
+  width: 100%;
+}
+
+.button {
+  color: #ffffff;
+}
+
+.typography {
+  text-align: center;
+}
+
+.link {
+  font-size: 15px !important;
+}

@@ -1,0 +1,32 @@
+.divVar {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.paper {
+  display: flex;
+  width: 400px;
+  height: 70px;
+  margin-right: 30px;
+  padding: 25px;
+  font-size: 20px;
+}
+
+.div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.avatar {
+  background-color: green; /* green[500] */
+  margin-left: auto;
+  width: 50px;
+}
+
+.p {
+  color: gary;
+  font-weight: bold;
+  margin: 0px;
+}

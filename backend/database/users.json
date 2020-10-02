@@ -1,0 +1,9 @@
+{
+  "role": "admin",
+  "valid": true,
+  "complete": true,
+  "provider": null,
+  "email": "admin@admin.com",
+  "password": "$2a$08$VB3ggaW12v1PVWhm3KOg7eEd4NBj7tY60TIsQKYqon34OY0/MSbtu",
+  "__v": 0
+}

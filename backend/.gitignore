@@ -1,0 +1,6 @@
+node_modules
+# .env
+logos/*
+prices/*
+.env.production
+.env.development

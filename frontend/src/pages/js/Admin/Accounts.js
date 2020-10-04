@@ -173,10 +173,10 @@ const Companies = ({ history }) => {
   const onDelete = (id) => {
     confirmAlert({
       title: "Confirm to submit",
-      message: "Are you sure to do this.",
+      message: "Are you sure you want to delete this account?",
       buttons: [
         {
-          label: "Yes",
+          label: "I'm sure",
           onClick: async () => {
             const token = localStorage.getItem("token");
             const { data } = await deleteUser(token, { id });
@@ -186,7 +186,7 @@ const Companies = ({ history }) => {
           },
         },
         {
-          label: "No",
+          label: "Cancel",
           onClick: () => {},
         },
       ],

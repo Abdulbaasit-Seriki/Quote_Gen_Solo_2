@@ -225,7 +225,12 @@ const Complete = ({ history }) => {
           /> */}
           <JoditEditor
             ref={editor}
-            config={{ readonly: false }}
+            config={{ 
+              readonly: false,
+              askBeforePasteHTML: false,
+              askBeforePasteFromWord: false,
+              defaultActionOnPaste: 'insert_clear_html'
+            }}
             value={formData.template}
             tabIndex={1}
             onBlur={(newContent) => {

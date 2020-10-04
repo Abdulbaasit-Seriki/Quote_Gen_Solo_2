@@ -84,7 +84,7 @@ const Company = ({ history }) => {
             onChange={changeLead}
           />
           <Box m={2} b={2} className={classes.areaContainer}>
-            <JoditEditor
+            <TextField
               className={classes.area}
               id="outlined-multiline-static"
               label="Please make sure you paste the entire lead"

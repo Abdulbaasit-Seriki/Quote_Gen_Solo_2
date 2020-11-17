@@ -59,7 +59,7 @@ exports.resendValidateEmail = async function (req, res) {
   await mailService.sendEmail(
     {
       to: currentUser.email,
-      from: process.env.EAMIL,
+      from: process.env.EMAIL,
       subject: "Confirm Your Email",
     },
     {
